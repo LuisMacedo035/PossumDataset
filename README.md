@@ -122,9 +122,7 @@ for pop in df['Pop'].unique():
         label=pop
     )
 ```
-<p align="center">
-  <img src="images/grafico1.png" width="700">
-</p>
+<img src="grafico1.png" width="700">
 
 
 ## Interpretação
@@ -143,9 +141,7 @@ Esse gráfico permite identificar:
 ```python
 plt.hist(df['age'])
 ```
-<p align="center">
-  <img src="images/grafico2.png" width="700">
-</p>
+<img src="grafico2.png" width="700">
 
 ---
 
@@ -170,9 +166,7 @@ sb.violinplot(
     data=df
 )
 ```
-<p align="center">
-  <img src="images/grafico3.png" width="700">
-</p>
+<img src="grafico3.png" width="700">
 
 ## Interpretação
 
